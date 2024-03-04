@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="Build: Add AssertJ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuItemTest.java" afterDir="false" />
+    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="Feat: Implement the process of ordering food.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "laphayen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="154cb771-1fdc-4a96-b4d6-db5a215b9f16" />
+        <option name="url" value="https://github.com/laphayen/oop-practice-order.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
@@ -224,7 +234,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709517978284</updated>
-      <workItem from="1709517979307" duration="1824000" />
+      <workItem from="1709517979307" duration="3344000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add AssertJ">
       <option name="closed" value="true" />
@@ -234,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709518128223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat: Implement the process of ordering food.">
+      <option name="closed" value="true" />
+      <created>1709519952039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709519952039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +260,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Build: Add AssertJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build: Add AssertJ" />
+    <MESSAGE value="Feat: Implement the process of ordering food." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Implement the process of ordering food." />
   </component>
 </project>
