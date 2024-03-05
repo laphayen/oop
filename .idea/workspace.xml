@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="Feat: Implement MenuItem">
+    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="refactor: Modify the public MenuItem choose()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
     "Gradle.CustomerTest.executor": "Debug",
     "Gradle.CustomerTest.name.executor": "Run",
     "Gradle.MenuItemTest.executor": "Run",
+    "Gradle.MenuTest.chooseTest2.executor": "Run",
     "Gradle.MenuTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +88,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MenuTest">
+  <component name="RunManager" selected="Gradle.MenuTest.chooseTest2">
     <configuration name="CookingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,30 +103,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.example.CookingTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CustomerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.CustomerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,13 +185,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MenuTest.chooseTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.MenuTest.chooseTest2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MenuTest.chooseTest2" />
         <item itemvalue="Gradle.MenuTest" />
         <item itemvalue="Gradle.CookingTest" />
         <item itemvalue="Gradle.MenuItemTest" />
         <item itemvalue="Gradle.CustomerTest.name" />
-        <item itemvalue="Gradle.CustomerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709517978284</updated>
       <workItem from="1709517979307" duration="3410000" />
-      <workItem from="1709637841591" duration="3322000" />
+      <workItem from="1709637841591" duration="3845000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add AssertJ">
       <option name="closed" value="true" />
@@ -277,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709643199697</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: Modify the public MenuItem choose()">
+      <option name="closed" value="true" />
+      <created>1709643647110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709643647110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,7 @@
     <MESSAGE value="Refactor: Add a constructor for receiving menuitem" />
     <MESSAGE value="Test: Add MenuTest" />
     <MESSAGE value="Feat: Implement MenuItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Implement MenuItem" />
+    <MESSAGE value="refactor: Modify the public MenuItem choose()" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Modify the public MenuItem choose()" />
   </component>
 </project>
