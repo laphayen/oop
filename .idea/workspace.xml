@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="Test: Add MenuTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
+    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="Feat: Implement MenuItem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CookTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CookingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CookingTest.makeCookTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CustomerTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.CustomerTest.name.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MenuItemTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.CookTest.executor": "Run",
+    "Gradle.CookingTest.executor": "Run",
+    "Gradle.CookingTest.makeCookTest.executor": "Run",
+    "Gradle.CustomerTest.executor": "Debug",
+    "Gradle.CustomerTest.name.executor": "Run",
+    "Gradle.MenuItemTest.executor": "Run",
+    "Gradle.MenuTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -234,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709517978284</updated>
       <workItem from="1709517979307" duration="3410000" />
-      <workItem from="1709637841591" duration="2962000" />
+      <workItem from="1709637841591" duration="3322000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add AssertJ">
       <option name="closed" value="true" />
@@ -268,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709642329335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat: Implement MenuItem">
+      <option name="closed" value="true" />
+      <created>1709643199697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709643199697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +288,7 @@
     <MESSAGE value="Feat: Implement the process of ordering food." />
     <MESSAGE value="Refactor: Add a constructor for receiving menuitem" />
     <MESSAGE value="Test: Add MenuTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test: Add MenuTest" />
+    <MESSAGE value="Feat: Implement MenuItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Implement MenuItem" />
   </component>
 </project>
