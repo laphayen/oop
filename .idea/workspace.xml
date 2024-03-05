@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="refactor: Modify the public MenuItem choose()">
+    <list default="true" id="bac25ad2-70de-40ac-b291-6f649cd0f9ef" name="Changes" comment="test: Return an exception when selecting a menu that does not exist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709517978284</updated>
       <workItem from="1709517979307" duration="3410000" />
-      <workItem from="1709637841591" duration="3845000" />
+      <workItem from="1709637841591" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add AssertJ">
       <option name="closed" value="true" />
@@ -285,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709643647110</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test: Return an exception when selecting a menu that does not exist">
+      <option name="closed" value="true" />
+      <created>1709643976925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709643976925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +307,7 @@
     <MESSAGE value="Test: Add MenuTest" />
     <MESSAGE value="Feat: Implement MenuItem" />
     <MESSAGE value="refactor: Modify the public MenuItem choose()" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Modify the public MenuItem choose()" />
+    <MESSAGE value="test: Return an exception when selecting a menu that does not exist" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: Return an exception when selecting a menu that does not exist" />
   </component>
 </project>
